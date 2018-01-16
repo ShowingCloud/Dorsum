@@ -1,0 +1,27 @@
+{
+  "name": "dorsum",
+  "version": "1.0.0",
+  "description": "Portal Site of Mammoth College http://www.mmcode.org",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShowingCloud/Dorsum.git"
+  },
+  "keywords": [
+    "Node",
+    "Express",
+    "Scratch"
+  ],
+  "author": "Showing Cloud",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ShowingCloud/Dorsum/issues"
+  },
+  "homepage": "https://github.com/ShowingCloud/Dorsum#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
