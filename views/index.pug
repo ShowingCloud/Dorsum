@@ -1,0 +1,122 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    title 猛犸学院
+    link(rel='stylesheet', href='/stylesheets/reset.css')
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel='stylesheet', type='text/css', media='screen and (max-width:1280px)', href='/stylesheets/index/1280index.css')
+    link(rel='stylesheet', type='text/css', media='screen and (min-width:1280px)', href='/stylesheets/index/1280index.css')
+    link(rel='stylesheet', type='text/css', media='screen and (min-width:1366px)', href='/stylesheets/index/1366index.css')
+    link(rel='stylesheet', type='text/css', media='screen and (min-width:1440px)', href='/stylesheets/index/1440index.css')
+    link(rel='stylesheet', type='text/css', media='screen and (min-width:1680px)', href='/stylesheets/index/1680index.css')
+    link(rel='stylesheet', type='text/css', media='screen and (min-width:1920px)', href='/stylesheets/index/1920index.css')
+    link(rel='stylesheet', href='/stylesheets/swiper.min.css')
+    script(src='/javascripts/jquery-3.2.1.min.js')
+    script(src='/javascripts/swiper.min.js')
+  body
+    .container
+      // 导航栏
+      .navBox
+        // <img src="/images/blur_bar.png" alt="" class="blur_bar">
+        // <img src="/images/black_bar.png" alt="" class="black_bar">
+        .balckBg
+          a(href='/')
+            img.logo(src='/images/logo.png', alt='')
+            img(src='/images/logo1.png', style='display: none;')
+          .lesson_tools
+            a(href='/video')
+              .lesson_tip.fl
+                img.fl.onlineLesson(src='/images/lesson.png', alt='')
+                span.fl 在线课程
+            .shortLine.fl
+            a(href='/', target='_blank')
+              .tool_tip.fr
+                img.fl.onlineTool(src='/images/tool_03.png', alt='')
+                span.fl 编程工具
+          .log_reg_box
+            a(href='') 登陆
+            a(href='') 注册
+      .yellowBar
+      // 轮播图
+      .swiper-container
+        .swiper-wrapper
+          .swiper-slide
+            img(src='/images/banner_big1.png', alt='')
+          .swiper-slide
+            img(src='/images/banner_big2.png', alt='')
+          .swiper-slide
+            img(src='/images/banner_big3.png', alt='')
+        img.arrowLeft(src='/images/arrowLeft.png', alt='')
+        img.arrowRight(src='/images/arrowRight.png', alt='')
+      .main.clear
+        .computerBox.fl
+          .logic_box
+            span.learnTypes 学习面向未来的思维方式
+            ul.len_boxes.clear
+              li.block1.fl
+                img.block1_img(src='/images/main/block1.png', alt='')
+                span.block1_des 逻辑思维能力
+              li.block2.fl
+                img.block2_img(src='/images/main/block2.png', alt='')
+                span.block2_des 系统化思考问题的能力
+              li.block3.fl
+                img.block3_img(src='/images/main/block3.png', alt='')
+                span.block3_des  使用工具解决 实际问题的能力
+          .computerInnerBox
+            .unlessSkill 除了编程你还能学到
+            ul.unlessLists1
+              li.animations 生物知识
+              li.animations 地理知识
+              li.animations 物理知识
+              li 音乐知识
+              li 自然知识
+            img.mainComputer(src='/images/computer1.gif', alt='')
+            ul.unlessLists2
+              li 美术知识
+              li 天文知识
+              li 科学实验
+              li 数学知识
+              li . . . . .
+        .lessonContent.fl
+          .lessons
+            span.lessonsBox 课程内容
+            span.lesson1.less 少儿编程课程
+            span.lesson2 机器人课程
+            span.lesson1.less 物联网课程
+            span.lesson2 人工智能课程
+            span.lesson1.less 竞赛课程:
+            span.sm_lesson_box.fl
+              span.sm_lesson1 DI、OM创意比赛
+              span.sm_lesson2 Robocup机器人大赛
+              span.sm_lesson1 未来工程师大赛
+              span.sm_lesson2 全国中小学创新大赛 等等
+              span.last_lessonBox （皆纳为学生综合素质评价体系的赛事项目）
+          img.boys(src='/images/main/boys.png', alt='')
+        .footer.fl
+          .qrCodeBox
+            img.qr_code(src='/images/qr_code.png', alt='')
+          ul.connectBox
+            li.connectUs 联系我们
+            li.connectTypes
+              | 微信号: 
+              i mmcode_org
+            li.connectTypes QQ: 292988028
+            li.connectTypes
+              | 邮箱: 
+              a(href='mailto:daisy@mmcode.org')
+                | daisy@mmcode.org
+            li.connectTypes 手机号: 13918541679
+    script.
+      var swiper = new Swiper('.swiper-container', {
+      pagination: '.swiper-pagination',
+      nextButton: '.arrowRight',
+      prevButton: '.arrowLeft',
+      slidesPerView: 1,
+      paginationClickable: true,
+      spaceBetween: 30,
+      loop: true,
+      centeredSlides: true,
+      autoplay: 2500,
+      });
+    script(src='/javascripts/main.js')

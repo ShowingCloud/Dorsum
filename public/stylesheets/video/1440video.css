@@ -1,0 +1,213 @@
+.container{
+    width:1440px;
+    margin:0 auto;
+  }
+  .navBox{
+    width:100%;
+    height:106px;
+    position:relative;
+  }
+  .balckBg{
+    width:100%;
+    height:100px;
+    background:#3e3a39;
+    position:absolute;
+    left:0;
+    top:0;
+  }
+  .logo{
+    left:71px;
+    width:71px;
+    height:64px;
+    position:absolute;
+    top:24px;
+  }
+  .lesson_tools{
+    width:280px;
+    height:36px;
+    position:absolute;
+    top:51px;
+    left:254px;
+    box-sizing:border-box;
+  }
+  .lesson_tip,.tool_tip{
+    width:107px;
+    height:30px;
+    /*background:url(/images/lesson.png)no-repeat;
+    background-size:cover;*/
+    position:relative;
+    top:50%;
+    margin-top:-15px;
+  }
+  .tool_tip{
+    width:110px;
+    /*background:url(/images/tool_03.png)no-repeat;
+    background-size:cover;*/
+  }
+  .lesson_tip span,.tool_tip span{
+    width:93px;
+    height:22px;
+    font-size:20px;
+    color:#9f9e9d;
+    position:absolute;
+    top:50%;
+    margin-top:-11px;
+    left:30px;
+  }
+  .onlineLesson{
+    width:28px;
+    height:28px;
+    position:absolute;
+    left:0;
+    top:50%;
+    margin-top:-14px;
+  }
+  .onlineTool{
+    width:33px;
+    height:27px;
+    position:absolute;
+    left:0;
+    top:50%;
+    margin-top:-13px;
+  }
+  .shortLine{
+    width:3px;
+    height:100%;
+    background:#a3a2a1;
+    margin-left:33px;
+  }
+  .log_reg_box{
+    width:100px;
+    height:20px;
+    position:absolute;
+    right:80px;
+    top:56px;
+  }
+  .log_reg_box > a{
+    width:48px;
+    height:100%;
+    display:block;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    float:left;
+    line-height:22px;
+  }
+  .log_reg_box > a:nth-of-type(1){
+    border-right:2px solid #fff;
+    text-align:left;
+  }
+  .log_reg_box > a:nth-of-type(2){
+    text-align:right;
+  }
+  .black_bar{
+    width:100%;
+    height:18px;
+    position:absolute;
+    bottom:5px;
+    left:0;
+  }
+  .yellowBar{
+    width:100%;
+    height:40px;
+    background:#f8bf4b;
+  }
+  .main{
+    width:100%;
+    height:983px;
+    margin-top:-2px;
+    background:url("/images/mmcodeBg.png")no-repeat;
+    background-size:cover;
+  }
+  .videoLists{
+    width:346px;
+    height:100%;
+    margin-top:2px;
+    text-align:center;
+  }
+  .list_title{
+    width:100%;
+    height:96px;
+    color:#fff;
+    line-height:112px;
+    background:#3e3a39;
+    text-align:center;
+    font-size:22px;
+  }
+  .list_title_box{
+    width:344px;
+    height:883px;
+    border-right:2px solid #323232;
+    background:rgba(255,255,255,0.6);
+  }
+  .little_title{
+    width:100%;
+    height:22px;
+    font-size:18px;
+    text-align:center;
+    margin-bottom:39px;
+    display:block;
+    color:#989696;
+  }
+  .little_title1{
+    margin-top:48px;
+  }
+  .little_title_active{
+    color:#814b28;
+  }
+  .right_video_box{
+    width:1094px;
+    height:980px;
+    margin-top:2px;
+    position:relative;
+  }
+  .backTo{
+    width:115px;
+    height:26px;
+    color:#3e3a39;
+    line-height:26px;
+    margin: 42px auto 0;
+    text-decoration: none;
+    font-size:22px;
+  }
+  .innerBox{
+    width:1008px;
+    height:657px;
+    position:absolute;
+    left:50%;
+    margin-left:-504px;
+    top:77px;
+  }
+  .storyName,.storyNum{
+    width:100%;
+    height:38px;
+    line-height:38px;
+    color:#3e3a39;
+    display:block;
+    text-align:center;
+  }
+  .storyName{
+    font-size:22px;
+  }
+  .storyNum{
+    font-size:35px;
+    margin:19px auto 29px;
+  }
+  .playing_video{
+    width:862px;
+    height:460px;
+    margin:0 auto;
+    overflow:hidden;
+  }
+  .video_iframe{
+    width: 100%;
+    height: -moz-calc(100% + 40px);
+    height: -webkit-calc(100% + 40px);
+    height: calc(100% + 40px);
+    position: relative;
+  }
+  .footer{
+    width:100%;
+    height:136px;
+    background:#f8bf4b;
+  }

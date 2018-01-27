@@ -1,0 +1,506 @@
+body{
+  overflow-x: hidden;
+}
+.container{
+    width:1366px;
+    margin:0 auto;
+  }
+  .navBox{
+    width:100%;
+    height:100px;
+    position:relative;
+  }
+  .balckBg{
+    width:100%;
+    height:96px;
+    background:#3e3a39;
+    position:absolute;
+    left:0;
+    top:0;
+  }
+  .logo{
+    left:67px;
+    width:68px;
+    height:60px;
+    position:absolute;
+    top:23px;
+  }
+  .lesson_tools{
+    width:264px;
+    height:34px;
+    position:absolute;
+    top:49px;
+    left:240px;
+    box-sizing:border-box;
+  }
+  .lesson_tip,.tool_tip{
+    width:100px;
+    height:25px;
+    position:relative;
+    top:50%;
+    margin-top:-12px;
+    /*background:url(../../images/lesson.png)no-repeat;
+    background-size:cover;*/
+  }
+  .tool_tip{
+    width:108px;
+    /*background:url(../../images/tool_03.png)no-repeat;
+    background-size:cover;*/
+  }
+  .lesson_tip span,.tool_tip span{
+    width:68px;
+    height:20px;
+    font-size:16px;
+    color:#9f9e9d;
+    position:absolute;
+    top:50%;
+    margin-top:-10px;
+    left:36px;
+  }
+  .onlineLesson{
+    width:26px;
+    height:26px;
+    position:absolute;
+    left:0;
+    top:50%;
+    margin-top:-13px;
+  }
+  .onlineTool{
+    width:32px;
+    height:26px;
+    position:absolute;
+    left:0;
+    top:50%;
+    margin-top:-13px;
+  }
+  .shortLine{
+    width:2px;
+    height:100%;
+    background:#a3a2a1;
+    margin-left:25px;
+  }
+  .log_reg_box{
+    width:96px;
+    height:20px;
+    position:absolute;
+    right:77px;
+    top:55px;
+  }
+  .log_reg_box > a{
+    width:47px;
+    height:100%;
+    display:block;
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    float:left;
+    line-height:20px;
+  }
+  .log_reg_box > a:nth-of-type(1){
+    border-right:2px solid #fff;
+    text-align:left;
+  }
+  .log_reg_box > a:nth-of-type(2){
+    text-align:right;
+  }
+  .black_bar{
+    width:100%;
+    height:18px;
+    position:absolute;
+    bottom:5px;
+    left:0;
+  }
+  .yellowBar{
+    width:100%;
+    height:36px;
+    background:#f8bf4b;
+  }
+  .swiper-container {
+    width: 100%;
+    height: 612px;
+    position:relative;
+    overflow-x: hidden;
+  }
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  .swiper-slide > img{
+    width: 100%;
+    height: 100%;
+  }
+  .arrowLeft,.arrowRight{
+    width:48px;
+    height:86px;
+    position:absolute;
+    top:50%;
+    margin-top:-45px;
+    z-index:1;
+  }
+  .arrowLeft{
+    left:30px;
+  }
+  .arrowRight{
+    right:30px;
+  }
+  /*main主体*/
+  .main{
+    /*height:2245px;*/
+    width:1366px;
+    position:relative;
+  }
+  .computerBox{
+    width:100%;
+    height:1141px;
+    text-align:center;
+  }
+  .logic_box{
+    width:1110px;
+    height:373px;
+    margin:106px auto 0;
+  }
+  .learnTypes{
+    width:415px;
+    height:41px;
+    font-size:36px;
+    color:#000;
+    line-height:41px;
+    margin:0 auto;
+  }
+  .len_boxes{
+    width:100%;
+    height:278px;
+    margin-top:55px;
+  }
+  .block1{
+    width:300px;
+    height:278px;
+    float:left;
+    position:relative;
+  }
+  .block1_img{
+    width:172px;
+    height:140px;
+    position:absolute;
+    left:24px;
+    top:45px;
+  }
+  .block1_des{
+    width:100%;
+    height:30px;
+    font-size:30px;
+    line-height:30px;
+    color:#000;
+    display:block;
+    top:225px;
+    left:0;
+    position:absolute;
+    text-align:left;
+  }
+  .block2{
+    width:510px;
+    height:100%;
+    border-right:1px solid #000;
+    border-left:1px solid #000;
+    position:relative;
+  }
+  .block2_img{
+    width:140px;
+    height:136px;
+    position:absolute;
+    top:45px;
+    left:184px;
+  }
+  .block2_des{
+    width:305px;
+    height:30px;
+    font-size:30px;
+    color:#000;
+    line-height:30px;
+    text-align:left;
+    position:absolute;
+    top:227px;
+    left:100px;
+  }
+  .block3{
+    width:298px;
+    height:100%;
+    position:relative;
+  }
+  .block3_img{
+    width:170px;
+    height:136px;
+    position:absolute;
+    left:94px;
+    top:46px;
+  }
+  .block3_des{
+    width:212px;
+    height:66px;
+    position:absolute;
+    font-size:30px;
+    line-height:40px;
+    top:205px;
+    left:89px;
+    color:#000;
+  }
+  .computerInnerBox{
+    width:926px;
+    height:522px;
+    margin: 86px auto 0;
+    position:relative;
+  }
+  .unlessSkill{
+    width:340px;
+    height:38px;
+    line-height:38px;
+    color:#000;
+    margin:0 auto;
+    font-size:36px;
+  }
+  .unlessLists1,.unlessLists2{
+    width:140px;
+    height:280px;
+    position:absolute;
+    top:105px;
+  }
+  .unlessLists1{
+    left:0;
+  }
+  .unlessLists2{
+    right:0;
+  }
+  .unlessLists1 li,.unlessLists2 li{
+    width:100%;
+    height:35px;
+    font-size:30px;
+    line-height:35px;
+    color:#000;
+    float:left;
+    margin-bottom:30px;
+  }
+  .unlessLists1 li:nth-of-type(1),.unlessLists2 li:nth-of-type(1){
+    margin-top:5px;
+  }
+  .mainComputer{
+    width:470px;
+    height:410px;
+    top:105px;
+    left:230px;
+    position:absolute;
+  }
+  .lessonContent{
+    width:100%;
+    height:510px;
+    background:#f0eeee;
+    position:relative;
+  }
+  .boys{
+    position:absolute;
+    top:-26px;
+    right:68px;
+    width:570px;
+    height:560px;
+    z-index:10;
+  }
+  .lessons{
+    width:566px;
+    height:350px;
+    position:absolute;
+    top:62px;
+    left:142px;
+  }
+  .lessonsBox{
+    width:100%;
+    height:45px;
+    line-height:45px;
+    font-size:36px;
+    color:#000;
+    text-align:left;
+    display:block;
+    margin-bottom:35px;
+
+  }
+  .lesson1{
+    width:190px;
+    height:34px;
+    line-height: 34px;
+    color:#000;
+    font-size:30px;
+    text-align:left;
+    float:left;
+    margin-bottom:20px;
+    font-weight:600;
+  }
+  .lesson2{
+    width:190px;
+    height:34px;
+    line-height: 34px;
+    color:#000;
+    font-size:30px;
+    text-align:left;
+    float:right;
+    margin-bottom:20px;
+    font-weight:600;
+  }
+  .less{
+    margin-left:10px;
+  }
+  .sm_lesson_box{
+    width:558px;
+    height:66px;
+    margin-left:10px;
+    margin-top:20px;
+    text-align:left;
+  }
+  .sm_lesson1{
+    width: 200px;
+    height:27px;
+    line-height:27px;
+    color:#000;
+    font-size:25px;
+    float:left;
+    margin-bottom:10px;
+  }
+  .sm_lesson2{
+    width:297px;
+    height:27px;
+    line-height:27px;
+    color:#000;
+    float:right;
+    font-size:25px;
+    margin-bottom:10px;
+  }
+  .last_lessonBox{
+    width:400px;
+    height:25px;
+    color:#000;
+    line-height:25px;
+    text-align: left;
+    font-size:20px;
+    float:left;
+    margin-top:10px;
+    margin-left:-15px;
+  }
+  .qrBox{
+    width:100%;
+    height:423px;
+    position:relative;
+    background:#fff;
+  }
+  .connectBox{
+    width:600px;
+    height:223px;
+    position:absolute;
+    right:315px;
+    top:194px;
+  }
+  .connectBox1{
+    width:100%;
+    height:46px;
+    font-size:32px;
+    line-height:46px;
+    color:#000;
+    font-weight:600;
+    text-align:left;
+  }
+  .wechat{
+    width:318px;
+    height:36px;
+    line-height:36px;
+    font-size:32px;
+    text-align:left;
+    float:left;
+    margin:27px 0  24px 0;
+  }
+  .qq{
+    width:235px;
+    height:36px;
+    line-height:36px;
+    font-size:32px;
+    text-align:right;
+    float:left;
+    margin:27px 0 24px 15px;
+  }
+  .mail,.mobile{
+    width:398px;
+    height:37px;
+    line-height:37px;
+    font-size:32px;
+    text-align:left;
+    float:left;
+  }
+  .mail{
+    margin-bottom:27px;
+  }
+  .footer{
+    width:1440px;
+    height:175px;
+    background:#f8bf4b;
+    position:relative;
+    margin-top:50px;
+  }
+  .qrCodeBox{
+    width:180px;
+    height:185px;
+    position:absolute;
+    left:113px;
+    bottom:37px;
+  }
+  .qr_code{
+    position:absolute;
+    width: 171px;
+    height:171px;
+    top:10px;
+    left:6px;
+  }
+  .connectBox{
+    width:1015px;
+    height:77px;
+    position:absolute;
+    top:34px;
+    left:336px;
+  }
+  .connectUs{
+    width:132px;
+    height:32px;
+    font-size:27px;
+    line-height: 32px;
+    color:#000;
+    text-align:left;
+  }
+  .connectTypes{
+    width:225px;
+    height:26px;
+    color:#000;
+    font-size:22px;
+    line-height: 26px;
+    float:left;
+    text-align:left;
+    margin-top:15px;
+  }
+  .connectTypes:nth-child(4){
+    width:300px;
+  }
+  .connectTypes:nth-child(3){
+    margin-left:30px;
+    width:200px;
+  }
+  .connectTypes:nth-child(5){
+    margin-left:0px;
+  }

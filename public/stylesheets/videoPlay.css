@@ -1,0 +1,16 @@
+html,body{
+  width:100%;
+  overflow-x:auto;
+  text-align:center;
+}
+/*html::-webkit-scrollbar{width:0px}*/
+.fl{
+  float:left;
+}
+.fr{
+  float:right;
+}
+.clear { zoom:1; }
+.clear:after { content:''; display:block; clear:both; }
+
+

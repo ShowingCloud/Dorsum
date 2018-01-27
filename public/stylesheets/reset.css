@@ -1,0 +1,53 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.4.1
+2010-03-01
+Author: Richard Clark - http://richclarkdesign.com
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin:0;
+  padding:0;
+  border:0;
+  outline:none;
+  font-size:100%;
+  vertical-align:baseline;
+  background:transparent;
+  list-style-type:none;
+  font-family: "SF Pro SC","HanHei SC","SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+a{
+  text-decoration: none;
+}
+body {
+  line-height:1;
+}
+span{
+  display:block;
+}
+:focus {
+  outline:none;
+}
+
+article,aside,canvas,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section,summary {
+  display:block;
+}
+i{
+  font-style: normal;
+  font-family: Arial!important;
+}
+.dis{
+  display: none;
+}

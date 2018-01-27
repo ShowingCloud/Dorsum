@@ -1,0 +1,18 @@
+html,body{
+  width:100%;
+  overflow-x:auto;
+  /*overflow-y:auto;*/
+  /*-ms-overflow-style:none;*/
+  /*overflow:-moz-scrollbars-none;*/
+}
+/*html::-webkit-scrollbar{width:0px}*/
+.fl{
+  float:left;
+}
+.fr{
+  float:right;
+}
+.clear { zoom:1; }
+.clear:after { content:''; display:block; clear:both; }
+
+

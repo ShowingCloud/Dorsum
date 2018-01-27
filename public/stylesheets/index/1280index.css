@@ -1,0 +1,507 @@
+body{
+  overflow-x: hidden;
+}
+.container{
+    width:1280px;
+    margin:0 auto;
+  }
+  .navBox{
+    width:100%;
+    height:94px;
+    position:relative;
+  }
+  .balckBg{
+    width:100%;
+    height:90px;
+    background:#3e3a39;
+    position:absolute;
+    left:0;
+    top:0;
+  }
+  .logo{
+    left:63px;
+    width:64px;
+    height:57px;
+    position:absolute;
+    top:21px;
+  }
+  .lesson_tools{
+    width:248px;
+    height:32px;
+    position:absolute;
+    top:46px;
+    left:226px;
+    box-sizing:border-box;
+  }
+  .lesson_tip,.tool_tip{
+    width:93px;
+    height:24px;
+    position:relative;
+    top:50%;
+    margin-top:-12px;
+    /*background:url(../../images/lesson.png)no-repeat;
+    background-size:cover;*/
+  }
+  .lesson_tip span,.tool_tip span{
+    width:68px;
+    height:20px;
+    font-size:16px;
+    color:#9f9e9d;
+    position:absolute;
+    top:50%;
+    margin-top:-10px;
+    left:36px;
+  }
+  .onlineLesson{
+    width:26px;
+    height:26px;
+    position:absolute;
+    left:0;
+    top:50%;
+    margin-top:-13px;
+  }
+  .onlineTool{
+    width:32px;
+    height:26px;
+    position:absolute;
+    left:0;
+    top:50%;
+    margin-top:-13px;
+  }
+  .tool_tip{
+    width:101px;
+    /*background:url(../../images/tool_03.png)no-repeat;
+    background-size:cover;*/
+  }
+  .shortLine{
+    width:2px;
+    height:100%;
+    background:#a3a2a1;
+    margin-left:30px;
+  }
+  .log_reg_box{
+    width:92px;
+    height:20px;
+    position:absolute;
+    right:72px;
+    top:50px;
+  }
+  .log_reg_box > a{
+    width:45px;
+    height:100%;
+    display:block;
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+    float:left;
+    line-height:20px;
+  }
+  .log_reg_box > a:nth-of-type(1){
+    border-right:2px solid #fff;
+    text-align:left;
+  }
+  .log_reg_box > a:nth-of-type(2){
+    text-align:right;
+  }
+  .black_bar{
+    width:100%;
+    height:18px;
+    position:absolute;
+    bottom:5px;
+    left:0;
+  }
+  .yellowBar{
+    width:100%;
+    height:33px;
+    background:#f8bf4b;
+  }
+  .swiper-container {
+    width: 100%;
+    height: 576px;
+    position:relative;
+    overflow-x: hidden;
+  }
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  .swiper-slide > img{
+    width: 100%;
+    height: 100%;
+  }
+  .arrowLeft,.arrowRight{
+    width:46px;
+    height:80px;
+    position:absolute;
+    top:50%;
+    margin-top:-40px;
+    z-index:1;
+  }
+  .arrowLeft{
+    left:30px;
+  }
+  .arrowRight{
+    right:30px;
+  }
+  /*main主体*/
+  .main{
+    height:1751px;
+    width:1280px;
+    position:relative;
+  }
+  .computerBox{
+    width:100%;
+    height:1070px;
+    text-align:center;
+  }
+  .logic_box{
+    width:1040px;
+    height:345px;
+    margin:104px auto 0;
+  }
+  .learnTypes{
+    width:393px;
+    height:37px;
+    font-size:31px;
+    color:#000;
+    line-height:37px;
+    margin:0 auto;
+  }
+  .len_boxes{
+    width:100%;
+    height:260px;
+    margin-top:50px;
+  }
+  .block1{
+    width:280px;
+    height:100%;
+    float:left;
+    position:relative;
+  }
+  .block1_img{
+    width:160px;
+    height:127px;
+    position:absolute;
+    left:23px;
+    top:42px;
+  }
+  .block1_des{
+    width:100%;
+    height:30px;
+    font-size:25px;
+    line-height:30px;
+    color:#000;
+    display:block;
+    top:209px;
+    left:0;
+    position:absolute;
+    text-align:left;
+  }
+  .block2{
+    width:480px;
+    height:100%;
+    border-right:1px solid #000;
+    border-left:1px solid #000;
+    position:relative;
+  }
+  .block2_img{
+    width:133px;
+    height:127px;
+    position:absolute;
+    top:42px;
+    left:174px;
+  }
+  .block2_des{
+    width:283px;
+    height:30px;
+    font-size:25px;
+    color:#000;
+    line-height:30px;
+    text-align:left;
+    position:absolute;
+    top:209px;
+    left:94px;
+  }
+  .block3{
+    width:278px;
+    height:100%;
+    position:relative;
+  }
+  .block3_img{
+    width:161px;
+    height:127px;
+    position:absolute;
+    left:85px;
+    top:42px;
+  }
+  .block3_des{
+    width:183px;
+    height:60px;
+    position:absolute;
+    font-size:25px;
+    line-height:35px;
+    top:192px;
+    left:87px;
+    color:#000;
+  }
+  .computerInnerBox{
+    width:868px;
+    height:480px;
+    margin: 86px auto 0;
+    position:relative;
+  }
+  .unlessSkill{
+    width:324px;
+    height:34px;
+    line-height:34px;
+    color:#000;
+    margin:0 auto;
+    font-size:31px;
+  }
+  .unlessLists1,.unlessLists2{
+    width:130px;
+    height:262px;
+    position:absolute;
+    top:105px;
+  }
+  .unlessLists1{
+    left:0;
+  }
+  .unlessLists2{
+    right:0;
+  }
+  .unlessLists1 li,.unlessLists2 li{
+    width:100%;
+    height:33px;
+    font-size:25px;
+    line-height:33px;
+    color:#000;
+    float:left;
+    margin-bottom:29px;
+  }
+  .unlessLists1 li:nth-of-type(1),.unlessLists2 li:nth-of-type(1){
+    margin-top:5px;
+  }
+  .mainComputer{
+    width:446px;
+    height:386px;
+    top:96px;
+    left:214px;
+    position:absolute;
+  }
+  .lessonContent{
+    width:100%;
+    height:480px;
+    background:#f0eeee;
+    position:relative;
+  }
+  .boys{
+    position:absolute;
+    top:-24px;
+    right:62px;
+    width:535px;
+    height:524px;
+    z-index:10;
+  }
+  .lessons{
+    width:406px;
+    height:330px;
+    position:absolute;
+    top:58px;
+    left:134px;
+  }
+  .lessonsBox{
+    width:100%;
+    height:44px;
+    line-height:44px;
+    font-size:31px;
+    color:#000;
+    text-align:left;
+    display:block;
+    margin-bottom:32px;
+
+  }
+  .lesson1{
+    width:186px;
+    height:34px;
+    line-height: 34px;
+    color:#000;
+    font-size:25px;
+    text-align:left;
+    float:left;
+    margin-bottom:20px;
+    font-weight:600;
+  }
+  .lesson2{
+    width:180px;
+    height:34px;
+    line-height: 34px;
+    color:#000;
+    font-size:25px;
+    text-align:left;
+    float:right;
+    margin-bottom:20px;
+    font-weight:600;
+  }
+  .less{
+    margin-left:10px;
+  }
+  .sm_lesson_box{
+    width:530px;
+    height:64px;
+    margin-left:10px;
+    margin-top:20px;
+    text-align:left;
+  }
+  .sm_lesson1{
+    width: 178px;
+    height:27px;
+    line-height:27px;
+    color:#000;
+    font-size:21px;
+    float:left;
+    margin-bottom:10px;
+  }
+  .sm_lesson2{
+    width:280px;
+    height:27px;
+    line-height:27px;
+    color:#000;
+    float:right;
+    font-size:21px;
+    margin-bottom:10px;
+  }
+  .last_lessonBox{
+    width:380px;
+    height:25px;
+    color:#000;
+    line-height:25px;
+    text-align: left;
+    font-size:17px;
+    float:left;
+    margin-top:10px;
+    margin-left:-15px;
+  }
+  .qrBox{
+    width:100%;
+    height:397px;
+    position:relative;
+    background:#fff;
+  }
+  .connectBox{
+    width:600px;
+    height:223px;
+    position:absolute;
+    right:315px;
+    top:194px;
+  }
+  .connectBox1{
+    width:100%;
+    height:46px;
+    font-size:32px;
+    line-height:46px;
+    color:#000;
+    font-weight:600;
+    text-align:left;
+  }
+  .wechat{
+    width:318px;
+    height:36px;
+    line-height:36px;
+    font-size:32px;
+    text-align:left;
+    float:left;
+    margin:27px 0  24px 0;
+  }
+  .qq{
+    width:235px;
+    height:36px;
+    line-height:36px;
+    font-size:32px;
+    text-align:right;
+    float:left;
+    margin:27px 0 24px 15px;
+  }
+  .mail,.mobile{
+    width:398px;
+    height:37px;
+    line-height:37px;
+    font-size:32px;
+    text-align:left;
+    float:left;
+  }
+  .mail{
+    margin-bottom:27px;
+  }
+  .footer{
+    width:1440px;
+    height:157px;
+    background:#f8bf4b;
+    position:relative;
+    margin-top:45px;
+  }
+  .qrCodeBox{
+    width:160px;
+    height:165px;
+    position:absolute;
+    left:100px;
+    bottom:40px;
+  }
+  .qr_code{
+    position:absolute;
+    width: 171px;
+    height:171px;
+    top:9px;
+    left:4px;
+  }
+  .connectBox{
+    width:907px;
+    height:73px;
+    position:absolute;
+    top:30px;
+    left:297px;
+  }
+  .connectUs{
+    width:132px;
+    height:30px;
+    font-size:25px;
+    line-height: 30px;
+    color:#000;
+    text-align:left;
+  }
+  .connectTypes{
+    width:200px;
+    height:25px;
+    color:#000;
+    font-size:20px;
+    line-height: 25px;
+    float:left;
+    text-align:left;
+    margin-top:15px;
+  }
+  .connectTypes:nth-child(4){
+    width:240px;
+    margin-left:40px;
+  }
+  .connectTypes:nth-child(3){
+    margin-left:30px;
+    width:155px;
+  }
+  .connectTypes:nth-child(5){
+    margin-left:35px;
+  }

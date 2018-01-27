@@ -1,0 +1,64 @@
+doctype html
+html(lang='en')
+  include ../data/videodata.pug
+  head
+    meta(charset='UTF-8')
+    title 猛犸学院
+    link(rel='stylesheet', href='/stylesheets/reset.css')
+    link(rel='stylesheet', href='/stylesheets/videoPlay.css')
+    link(rel='stylesheet', type='text/css', media='screen and (max-width:1280px)', href='/stylesheets/video/1280video.css')
+    link(rel='stylesheet', type='text/css', media='screen and (min-width:1280px)', href='/stylesheets/video/1280video.css')
+    link(rel='stylesheet', type='text/css', media='screen and (min-width:1366px)', href='/stylesheets/video/1366video.css')
+    link(rel='stylesheet', type='text/css', media='screen and (min-width:1440px)', href='/stylesheets/video/1440video.css')
+    link(rel='stylesheet', type='text/css', media='screen and (min-width:1680px)', href='/stylesheets/video/1680video.css')
+    link(rel='stylesheet', type='text/css', media='screen and (min-width:1920px)', href='/stylesheets/video/1920video.css')
+    script(src='/javascripts/jquery-3.2.1.min.js')
+  body
+    .container
+      // 导航栏
+      .navBox
+        // <img src="/images/blur_bar.png" alt="" class="blur_bar">
+        // <img src="/images/black_bar.png" alt="" class="black_bar">
+        .balckBg
+          a(href='/')
+            img.logo(src='/images/logo.png', alt='')
+            img(src='/images/logo1.png', style='display: none;')
+          .lesson_tools
+            a(href='/video')
+              .lesson_tip.fl
+                img.fl.onlineLesson(src='/images/lesson.png', alt='')
+                span.fl 在线课程
+            .shortLine.fl
+            a(href='/', target='_blank')
+              .tool_tip.fr
+                img.fl.onlineTool(src='/images/tool_03.png', alt='')
+                span.fl 编程工具
+          .log_reg_box
+            a(href='') 登陆
+            a(href='') 注册
+      .yellowBar
+      .main
+        ul.videoLists.fl
+          li.list_title.fl 故事列表
+          li.list_title_box.fl
+            if videodata.season[season - 1]
+              - var season = videodata.season[season - 1]
+            else
+              - var season = videodata.season[0]
+            span.little_title.little_title_active.little_title1 #{season.name}
+            each epi in season.episode
+              a(href='/video/' + season.id + '/episode/' + epi.id)
+                span.little_title #{epi.name}
+            a.backTo(href='/video/' + season.id) << 返回
+        .right_video_box.fr
+          .innerBox
+            span.storyName #{season.name}
+            if season.episode[episode - 1]
+              - var episode = season.episode[episode - 1]
+            else
+              - var episode = season.episode[0]
+            span.storyNum #{episode.name}
+            .playing_video
+              iframe.video_iframe(src='//www.bilibili.com/blackboard/player.html?aid=' + episode.bilibili_id + '&as_wide=1', frameborder='0', scrolling='no', webkitallowfullscreen='', mozallowfullscreen='', allowfullscreen='')
+      .footer
+      script(src='/javascripts/main.js')

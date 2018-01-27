@@ -1,0 +1,478 @@
+body{
+    overflow-x:hidden;
+  }
+  .container{
+    width:1680px;
+  }
+  .navBox{
+    width:100%;
+    height:122px;
+    position:relative;
+  }
+  .balckBg{
+    width:100%;
+    height:118px;
+    background:#3e3a39;
+    position:absolute;
+    left:0;
+    top:0;
+  }
+  .logo{
+    left:83px;
+    width:83px;
+    height:73px;
+    position:absolute;
+    top:28px;
+  }
+  .lesson_tools{
+    width:325px;
+    height:42px;
+    position:absolute;
+    top:60px;
+    left:296px;
+    box-sizing:border-box;
+  }
+  .lesson_tip,.tool_tip{
+    width:122px;
+    height:33px;
+    position:relative;
+    top:50%;
+    margin-top:-16px;
+  }
+  .lesson_tip span,.tool_tip span{
+    width:93px;
+    height:23px;
+    font-size:23px;
+    color:#9f9e9d;
+    position:absolute;
+    top:50%;
+    margin-top:-11px;
+    left:55px;
+  }
+  .lesson_tip span{
+    left:48px;
+  }
+  .onlineLesson{
+    width:32px;
+    height:32px;
+    position:absolute;
+    left:0;
+    top:50%;
+    margin-top:-16px;
+  }
+  .onlineTool{
+    width:39px;
+    height:32px;
+    position:absolute;
+    left:0;
+    top:50%;
+    margin-top:-16px;
+  }
+  /*.lesson_tip{
+    background:url(../../images/lesson.png)no-repeat;
+    background-size:100% 100%;
+  }
+  .tool_tip{
+    width:130px;
+    background:url(../../images/tool_03.png)no-repeat;
+    background-size:100% 100%;
+  }*/
+  .shortLine{
+    width:3px;
+    height:100%;
+    background:#a3a2a1;
+    margin-left:44px;
+  }
+  .log_reg_box{
+    width:122px;
+    height:26px;
+    position:absolute;
+    right:95px;
+    top:67px;
+  }
+  .log_reg_box > a{
+    width:60px;
+    height:100%;
+    display:block;
+    font-size: 23px;
+    color: #fff;
+    text-decoration: none;
+    float:left;
+    line-height:26px;
+    text-align:left;
+  }
+  .log_reg_box > a:nth-of-type(1){
+    border-right:2px solid #fff;
+  }
+  .log_reg_box > a:nth-of-type(2){
+    text-align:right;
+  }
+  .black_bar{
+    width:100%;
+    height:20px;
+    position:absolute;
+    bottom:5px;
+    left:0;
+  }
+  .yellowBar{
+    width:100%;
+    height:47px;
+    background:#f8bf4b;
+  }
+  .swiper-container {
+    width: 100%;
+    height: 752px;
+    position:relative;
+  }
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  .swiper-slide > img{
+    width: 100%;
+    height: 100%;
+  }
+  .arrowLeft,.arrowRight{
+    width:64px;
+    height:106px;
+    position:absolute;
+    top:50%;
+    margin-top:-53px;
+    z-index:1;
+  }
+  .arrowLeft{
+    left:35px;
+  }
+  .arrowRight{
+    right:35px;
+  }
+  /*main主体*/
+  .main{
+    width:1680px;
+    position:relative;
+  }
+  .computerBox{
+    width:100%;
+    height:1408px;
+    text-align:center;
+  }
+  .logic_box{
+    width:1377px;
+    height:456px;
+    margin:133px auto 0;
+  }
+  .learnTypes{
+    width:525px;
+    height:50px;
+    font-size:45px;
+    color:#000;
+    line-height:50px;
+    margin:0 auto;
+  }
+  .len_boxes{
+    width:100%;
+    height:341px;
+    margin-top:69px;
+  }
+  .block1{
+    width:375px;
+    height:341px;
+    float:left;
+    position:relative;
+  }
+  .block1_img{
+    width:212px;
+    height:169px;
+    position:absolute;
+    left:32px;
+    top:53px;
+  }
+  .block1_des{
+    width:100%;
+    height:40px;
+    font-size:37px;
+    line-height:40px;
+    color:#000;
+    display:block;
+    top:272px;
+    left:0;
+    position:absolute;
+    text-align:left;
+  }
+  .block2{
+    width:630px;
+    height:390px;
+    border-right:1px solid #000;
+    border-left:1px solid #000;
+    position:relative;
+  }
+  .block2_img{
+    width:176px;
+    height:169px;
+    position:absolute;
+    top:53px;
+    left:228px;
+  }
+  .block2_des{
+    width:370px;
+    height:42px;
+    font-size:37px;
+    color:#000;
+    line-height:42px;
+    text-align:left;
+    position:absolute;
+    top:272px;
+    left:125px;
+  }
+  .block3{
+    width:370px;
+    height:340px;
+    position:relative;
+  }
+  .block3_img{
+    width:212px;
+    height:169px;
+    position:absolute;
+    left:114px;
+    top:53px;
+  }
+  .block3_des{
+    width:270px;
+    height:80px;
+    position:absolute;
+    font-size:37px;
+    line-height:40px;
+    top:250px;
+    left:110px;
+    color:#000;
+  }
+  .computerInnerBox{
+    width:1150px;
+    height:635px;
+    margin: 115px auto 0;
+    position:relative;
+  }
+  .unlessSkill{
+    width:415px;
+    height:52px;
+    line-height:52px;
+    color:#000;
+    margin:0 auto;
+    font-size:45px;
+  }
+  .unlessLists1,.unlessLists2{
+    width:174px;
+    height:353px;
+    position:absolute;
+    top:77px;
+  }
+  .unlessLists1{
+    left:0;
+  }
+  .unlessLists2{
+    right:0;
+  }
+  .unlessLists1 li,.unlessLists2 li{
+    width:100%;
+    height:44px;
+    font-size:37px;
+    line-height:44px;
+    color:#000;
+    float:left;
+    margin-bottom:36px;
+  }
+  .unlessLists1 li:nth-of-type(1),.unlessLists2 li:nth-of-type(1){
+    margin-top:9px;
+  }
+  .mainComputer{
+    width:578px;
+    height:508px;
+    top:77px;
+    left:283px;
+    position:absolute;
+  }
+  .lessonContent{
+    width:100%;
+    height:626px;
+    background:#f0eeee;
+    position:relative;
+  }
+  .boys{
+    position:absolute;
+    top:-32px;
+    right:83px;
+    width:702px;
+    height:684px;
+    z-index:10;
+  }
+  .lessons{
+    width:646px;
+    height:430px;
+    position:absolute;
+    top:77px;
+    left:172px;
+  }
+  .lessonsBox{
+    width:100%;
+    height:54px;
+    line-height:54px;
+    font-size:45px;
+    color:#000;
+    text-align:left;
+    display:block;
+    margin-bottom:41px;
+
+  }
+  .lesson1{
+    width:231px;
+    height:47px;
+    line-height: 47px;
+    color:#000;
+    font-size:37px;
+    text-align:left;
+    float:left;
+    margin-bottom:23px;
+    font-weight:600;
+  }
+  .lesson2{
+    width:359px;
+    height:47px;
+    line-height: 47px;
+    color:#000;
+    font-size:37px;
+    text-align:left;
+    float:right;
+    margin-bottom:23px;
+    font-weight:600;
+  }
+  .less{
+    margin-left:10px;
+  }
+  .sm_lesson_box{
+    width:646px;
+    height:78px;
+    margin-left:10px;
+    margin-top:30px;
+    text-align:left;
+  }
+  .sm_lesson1{
+    width: 240px;
+    height:32px;
+    line-height:32px;
+    color:#000;
+    font-size:31px;
+    float:left;
+    margin-bottom:14px;
+  }
+  .sm_lesson2{
+    width:368px;
+    height:32px;
+    line-height:32px;
+    color:#000;
+    float:right;
+    font-size:31px;
+    margin-bottom:14px;
+  }
+  .last_lessonBox{
+    width:500px;
+    height:30px;
+    color:#000;
+    line-height:30px;
+    text-align: left;
+    font-size:25px;
+    float:left;
+    margin-top:10px;
+    margin-left:-20px;
+  }
+  .qrBox{
+    width:100%;
+    height:522px;
+    position:relative;
+    background:#fff;
+  }
+  .connectBox{
+    width:710px;
+    height:260px;
+    position:absolute;
+    right:367px;
+    top:226px;
+  }
+  .connectBox1{
+    width:100%;
+    height:53px;
+    font-size:45px;
+    line-height:53px;
+    color:#000;
+    font-weight:600;
+    text-align:left;
+  }
+  .footer{
+    width:100%;
+    height:202px;
+    background:#f8bf4b;
+    position:relative;
+    margin-top:60px;
+  }
+  .qrCodeBox{
+    width:210px;
+    height:216px;
+    position:absolute;
+    left:132px;
+    bottom:43px;
+  }
+  .qr_code{
+    position:absolute;
+    width: 197px;
+    height:197px;
+    top:12px;
+    left:5px;
+  }
+  .connectBox{
+    width:1184px;
+    height:90px;
+    position:absolute;
+    left:392px;
+    top:41px;
+  }
+  .connectUs{
+    width:152px;
+    height:40px;
+    font-size:37px;
+    line-height: 40px;
+    color:#000;
+  }
+  .connectTypes{
+    width:270px;
+    height:32px;
+    color:#000;
+    font-size:26px;
+    line-height: 32px;
+    float:left;
+    text-align:left;
+    margin-top:15px;
+  }
+  .connectTypes:nth-child(4){
+    width:326px;
+  }
+  .connectTypes:nth-child(3){
+    margin-left:30px;
+    width:240px;
+  }
+  .connectTypes:nth-child(5){
+    margin-left:25px;
+  }

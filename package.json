@@ -2,9 +2,10 @@
   "name": "dorsum",
   "version": "1.0.0",
   "description": "Portal Site of Mammoth College http://www.mmcode.org",
-  "main": "app.js",
+  "main": "./bin/www",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./bin/www"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,12 @@
   },
   "homepage": "https://github.com/ShowingCloud/Dorsum#readme",
   "dependencies": {
-    "express": "^4.16.2"
+    "body-parser": "~1.18.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "^4.16.2",
+    "morgan": "~1.9.0",
+    "pug": "^2.0.0-rc.4",
+    "serve-favicon": "~2.4.5"
   }
 }

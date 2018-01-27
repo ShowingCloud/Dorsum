@@ -1,0 +1,218 @@
+body{
+  overflow-x: hidden;
+}
+.container{
+    width:1280px;
+    margin:0 auto;
+  }
+  .navBox{
+    width:100%;
+    height:94px;
+    position:relative;
+  }
+  .balckBg{
+    width:100%;
+    height:90px;
+    background:#3e3a39;
+    position:absolute;
+    left:0;
+    top:0;
+  }
+  .logo{
+    left:63px;
+    width:64px;
+    height:57px;
+    position:absolute;
+    top:21px;
+  }
+  .lesson_tools{
+    width:248px;
+    height:32px;
+    position:absolute;
+    top:46px;
+    left:226px;
+    box-sizing:border-box;
+  }
+  .lesson_tip,.tool_tip{
+    width:93px;
+    height:24px;
+    position:relative;
+    top:50%;
+    margin-top:-12px;
+    /*background:url(/images/lesson.png)no-repeat;
+    background-size:cover;*/
+  }
+  .lesson_tip span,.tool_tip span{
+    width:68px;
+    height:20px;
+    font-size:16px;
+    color:#9f9e9d;
+    position:absolute;
+    top:50%;
+    margin-top:-10px;
+    left:36px;
+  }
+  .onlineLesson{
+    width:26px;
+    height:26px;
+    position:absolute;
+    left:0;
+    top:50%;
+    margin-top:-13px;
+  }
+  .onlineTool{
+    width:32px;
+    height:26px;
+    position:absolute;
+    left:0;
+    top:50%;
+    margin-top:-13px;
+  }
+  .tool_tip{
+    width:101px;
+    /*background:url(/images/tool_03.png)no-repeat;
+    background-size:cover;*/
+  }
+  .shortLine{
+    width:2px;
+    height:100%;
+    background:#a3a2a1;
+    margin-left:30px;
+  }
+  .log_reg_box{
+    width:96px;
+    height:20px;
+    position:absolute;
+    right:77px;
+    top:55px;
+  }
+  .log_reg_box > a{
+    width:47px;
+    height:100%;
+    display:block;
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    float:left;
+    line-height:20px;
+  }
+  .log_reg_box > a:nth-of-type(1){
+    border-right:2px solid #fff;
+    text-align:left;
+  }
+  .log_reg_box > a:nth-of-type(2){
+    text-align:right;
+  }
+  .black_bar{
+    width:100%;
+    height:18px;
+    position:absolute;
+    bottom:5px;
+    left:0;
+  }
+  .yellowBar{
+    width:100%;
+    height:36px;
+    background:#f8bf4b;
+  }
+  .main{
+    width:100%;
+    height:875px;
+    background:url("/images/mmcodeBg.png")no-repeat;
+    background-size:cover;
+  }
+  .videoLists{
+    width:310px;
+    height:100%;
+    margin-top:3px;
+    text-align:center;
+  }
+  .list_title{
+    width:100%;
+    height:90px;
+    color:#fff;
+    line-height:90px;
+    background:#3e3a39;
+    text-align:center;
+    font-size:18px;
+  }
+  .list_title_box{
+    width:308px;
+    height:780px;
+    border-right:2px solid #323232;
+    background:rgba(255,255,255,0.6);
+  }
+  .little_title{
+    width:100%;
+    height:20px;
+    font-size:15px;
+    text-align:center;
+    margin-bottom:20px;
+    display:block;
+    color:#989696;
+  }
+  .little_title1{
+    margin-top:46px;
+  }
+  .little_title_active{
+    color:#814b28;
+  }
+  .right_video_box{
+    width:970px;
+    height:870px;
+    background:url("../images/video1/bg1.png")no-repeat;
+    margin-top:3px;
+    background-size:cover;
+    position:relative;
+  }
+
+  .backTo{
+    width:115px;
+    height:32px;
+    color:#3e3a39;
+    line-height:36px;
+    margin: 42px auto 0;
+    text-decoration: none;
+    font-size:17px;
+  }
+  .innerBox{
+    width:957px;
+    height:623px;
+    position:absolute;
+    left:50%;
+    top:73px;
+    margin-left:-479px;
+  }
+  .storyName,.storyNum{
+    width:100%;
+    height:36px;
+    line-height:36px;
+    color:#3e3a39;
+    display:block;
+    text-align:center;
+  }
+  .storyName{
+    font-size:18px;
+  }
+  .storyNum{
+    font-size:15px;
+    margin:17px auto 27px;
+  }
+  .playing_video{
+    width:768px;
+    height:406px;
+    margin:0 auto;
+    overflow:hidden;
+  }
+  .video_iframe{
+    width: 100%;
+    height: -moz-calc(100% + 40px);
+    height: -webkit-calc(100% + 40px);
+    height: calc(100% + 40px);
+    position: relative;
+  }
+  .footer{
+    width:100%;
+    height:129px;
+    background:#f8bf4b;
+  }

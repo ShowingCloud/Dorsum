@@ -1,0 +1,224 @@
+body{
+    overflow-x:hidden;
+  }
+  .container{
+    width:1680px;
+  }
+  .navBox{
+    width:100%;
+    height:122px;
+    position:relative;
+  }
+  .balckBg{
+    width:100%;
+    height:118px;
+    background:#3e3a39;
+    position:absolute;
+    left:0;
+    top:0;
+  }
+  .logo{
+    left:83px;
+    width:83px;
+    height:73px;
+    position:absolute;
+    top:28px;
+  }
+  .lesson_tools{
+    width:325px;
+    height:42px;
+    position:absolute;
+    top:60px;
+    left:296px;
+    box-sizing:border-box;
+  }
+  .lesson_tip,.tool_tip{
+    width:122px;
+    height:33px;
+    position:relative;
+    top:50%;
+    margin-top:-16px;
+  }
+  .lesson_tip span,.tool_tip span{
+    width:93px;
+    height:23px;
+    font-size:23px;
+    color:#9f9e9d;
+    position:absolute;
+    top:50%;
+    margin-top:-11px;
+    left:55px;
+  }
+  .lesson_tip span{
+    left:48px;
+  }
+  .onlineLesson{
+    width:32px;
+    height:32px;
+    position:absolute;
+    left:0;
+    top:50%;
+    margin-top:-16px;
+  }
+  .onlineTool{
+    width:39px;
+    height:32px;
+    position:absolute;
+    left:0;
+    top:50%;
+    margin-top:-16px;
+  }
+  /*.lesson_tip{
+    background:url(/images/lesson.png)no-repeat;
+    background-size:100% 100%;
+  }
+  .tool_tip{
+    width:130px;
+    background:url(/images/tool_03.png)no-repeat;
+    background-size:100% 100%;
+  }*/
+  .shortLine{
+    width:3px;
+    height:100%;
+    background:#a3a2a1;
+    margin-left:44px;
+  }
+  .log_reg_box{
+    width:122px;
+    height:26px;
+    position:absolute;
+    right:95px;
+    top:67px;
+  }
+  .log_reg_box > a{
+    width:60px;
+    height:100%;
+    display:block;
+    font-size: 23px;
+    color: #fff;
+    text-decoration: none;
+    float:left;
+    line-height:26px;
+    text-align:left;
+  }
+  .log_reg_box > a:nth-of-type(1){
+    border-right:2px solid #fff;
+  }
+  .log_reg_box > a:nth-of-type(2){
+    text-align:right;
+  }
+  .black_bar{
+    width:100%;
+    height:20px;
+    position:absolute;
+    bottom:5px;
+    left:0;
+  }
+  .yellowBar{
+    width:100%;
+    height:45px;
+    background:#f8bf4b;
+  }
+  .main{
+    width:100%;
+    height:1146px;
+    margin-top:-3px;
+    background:url("/images/mmcodeBg.png")no-repeat;
+    background-size:cover;
+  }
+  .videoLists{
+    width:402px;
+    height:100%;
+    margin-top:3px;
+    text-align:center;
+  }
+  .list_title{
+    width:100%;
+    height:112px;
+    color:#fff;
+    line-height:112px;
+    background:#3e3a39;
+    text-align:center;
+    font-size:26px;
+  }
+
+  .list_title_box{
+    width:400px;
+    height:1030px;
+    border-right:2px solid #323232;
+    background:rgba(255,255,255,0.6);
+  }
+  .little_title{
+    width:100%;
+    height:26px;
+    font-size:21px;
+    text-align:center;
+    margin-bottom:33px;
+    display:block;
+    line-height:34px;
+    color:#989696;
+  }
+  .little_title1{
+    margin-top:64px;
+  }
+  .little_title_active{
+    color:#814b28;
+  }
+  .right_video_box{
+    width:1278px;
+    height:1142px;
+    background:url("/images/video1/bg1.png")no-repeat;
+    margin-top:3px;
+    background-size:cover;
+    position:relative;
+  }
+  .backTo{
+    width:115px;
+    height:32px;
+    color:#3e3a39;
+    line-height:36px;
+    margin: 42px auto 0;
+    text-decoration: none;
+    font-size:21px;
+  }
+  .innerBox{
+    width:1176px;
+    height:767px;
+    position:absolute;
+    left:50%;
+    top:90px;
+    margin-left:-588px;
+  }
+  .storyName,.storyNum{
+    width:100%;
+    height:45px;
+    line-height:45px;
+    color:#3e3a39;
+    display:block;
+    text-align:center;
+  }
+  .storyName{
+    font-size:26px;
+  }
+  .storyNum{
+    font-size:21px;
+    margin:32px auto 33px;
+  }
+  .playing_video{
+    width:1006px;
+    height:537px;
+    margin:0 auto;
+    overflow:hidden;
+  }
+  .video_iframe{
+    width: 100%;
+    height: -moz-calc(100% + 40px);
+    height: -webkit-calc(100% + 40px);
+    height: calc(100% + 40px);
+    position: relative;
+  }
+  .footer{
+    width:100%;
+    height:158px;
+    background:#f8bf4b;
+  }
