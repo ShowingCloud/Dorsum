@@ -4,14 +4,16 @@ html(lang='en')
   head
     meta(charset='UTF-8')
     title 猛犸学院
+    meta(name='viewport', content='initial-scale=1,maximum-scale=1, minimum-scale=1')
     link(rel='stylesheet', href='/stylesheets/reset.css')
     link(rel='stylesheet', href='/stylesheets/playlist.css')
     link(rel='stylesheet', type='text/css', media='screen and (max-width:1280px)', href='/stylesheets/videoList/1280videoList.css')
-    link(rel='stylesheet', type='text/css', media='screen and (min-width:1280px)', href='/stylesheets/videoList/1280videoList.css')
+    link(rel='stylesheet', type='text/css', media='screen and (min-width:421px)', href='/stylesheets/videoList/1280videoList.css')
     link(rel='stylesheet', type='text/css', media='screen and (min-width:1366px)', href='/stylesheets/videoList/1366videoList.css')
     link(rel='stylesheet', type='text/css', media='screen and (min-width:1440px)', href='/stylesheets/videoList/1440videoList.css')
     link(rel='stylesheet', type='text/css', media='screen and (min-width:1680px)', href='/stylesheets/videoList/1680videoList.css')
     link(rel='stylesheet', type='text/css', media='screen and (min-width:1920px)', href='/stylesheets/videoList/1920videoList.css')
+    link(rel='stylesheet', type='text/css', media='screen and (max-width:421px)', href='/stylesheets/videoList/mobile.css')
     script(src='/javascripts/jquery-3.2.1.min.js')
   body
     .container
@@ -38,11 +40,6 @@ html(lang='en')
             a(href='') 注册
       .yellowBar
       .main
-        ul.videoLists.fl
-          li.list_title.fl 课程列表
-          li.list_title_box.fl
-            each season in videodata.season
-              span.little_title.little_title_active.little_title1 #{season.name}
         .right_video_box.fr
           .sm_video_lists
             if videodata.season[season - 1]
@@ -64,5 +61,12 @@ html(lang='en')
                 if index == 2
                   </div>
               </div>
+            span.prevPage.dis <<&nbsp;上一页
+            span.nextPage.dis <<&nbsp;下一页
+        ul.videoLists.fl
+          li.list_title.fl 课程列表
+          li.list_title_box.fl
+            each season in videodata.season
+              span.little_title.little_title_active.little_title1 #{season.name}
       .footer
       script(src='/javascripts/main.js')

@@ -1,0 +1,327 @@
+@media screen and (max-width:321px) {
+    html {
+        font-size: 42px;
+    }
+}
+
+@media screen and (min-width:321px) and (max-width:400px) {
+    html {
+        font-size: 50px;
+    }
+}
+
+@media screen and (min-width:400px) and (max-width:420px) {
+    html {
+        font-size: 55.2px;
+    }
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.container {
+    width: 7.5rem;
+    margin: 0 auto;
+}
+
+.navBox {
+    width: 100%;
+    height: 1.4rem;
+    position: relative;
+}
+
+.balckBg {
+    width: 100%;
+    height: 1.34rem;
+    background: #3e3a39;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.logo {
+    left: .25rem;
+    width: .9rem;
+    height: .82rem;
+    position: absolute;
+    top: .32rem;
+}
+
+.lesson_tools {
+    width: 3.72rem;
+    height: .45rem;
+    position: absolute;
+    top: .68rem;
+    left: 1.48rem;
+    box-sizing: border-box;
+}
+
+.lesson_tip,
+.tool_tip {
+    width: 1.4rem;
+    height: .36rem;
+    position: relative;
+    top: 50%;
+    margin-top: -.22rem;
+    /*background:url(/images/lesson.png)no-repeat;
+    background-size:cover;*/
+}
+
+.lesson_tip img {
+    width: .36rem;
+    height: .36rem;
+}
+
+.tool_tip img {
+    width: 0.42rem;
+    height: .36rem;
+}
+
+.lesson_tip span,
+.tool_tip span {
+    width: 0.96rem;
+    height: .36rem;
+    font-size: 0.24rem;
+    color: rgb(159, 158, 157);
+    text-align: left;
+    line-height: .36rem;
+    float: right;
+    position: static;
+    top: 0;
+    margin-top: 0;
+    left: 0;
+}
+
+.onlineLesson {
+    position: static;
+    left: 0;
+    top: 50%;
+    margin-top: 0;
+}
+
+.onlineTool {
+    width: 0.44rem;
+    height: .36rem;
+    position: static;
+    left: 0;
+    top: 50%;
+    margin-top: 0;
+}
+
+.tool_tip {
+    width: 1.45rem;
+    /*background:url(/images/tool_03.png)no-repeat;
+    background-size:cover;*/
+}
+
+.shortLine {
+    width: .02rem;
+    height: 100%;
+    background: #a3a2a1;
+    margin-left: .4rem;
+}
+
+.log_reg_box {
+    width: 1.3rem;
+    height: 0.25rem;
+    position: absolute;
+    right: 0.3rem;
+    top: 0.77rem;
+}
+
+.log_reg_box>a {
+    width: 0.62rem;
+    height: 100%;
+    display: block;
+    font-size: 0.18rem;
+    color: #fff;
+    text-decoration: none;
+    float: left;
+    line-height: .25rem;
+}
+
+.log_reg_box>a:nth-of-type(1) {
+    border-right: 2px solid #fff;
+    text-align: left;
+}
+
+.log_reg_box>a:nth-of-type(2) {
+    text-align: right;
+}
+
+.black_bar {
+    width: 100%;
+    height: 18px;
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+}
+
+.yellowBar {
+    width: 100%;
+    height: 0.55rem;
+    background: #f8bf4b;
+}
+
+.main {
+    width: 100%;
+    height: auto;
+}
+
+.videoLists {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.list_title {
+    width: 100%;
+    height: .65rem;
+    color: #fff;
+    line-height: .65rem;
+    background: #3e3a39;
+    text-align: left;
+    font-size: .25rem;
+    text-indent: .5rem;
+}
+
+.list_title_box {
+    width: 100%;
+    height: auto;
+    border-right: none;
+}
+
+.little_title {
+    width: 100%;
+    height: .28rem;
+    font-size: .25rem;
+    text-align: left;
+    margin-bottom: 0;
+    margin-top: .5rem;
+    display: block;
+    text-indent: .5rem;
+}
+
+.little_title1 {
+    margin-top: .5rem;
+}
+
+.little_title_active {
+    color: #814b28;
+}
+
+.right_video_box {
+    width: 100%;
+    height: 7.3rem;
+    background: url("/images/video1/bg1.png")no-repeat;
+    /*margin-top:3px;*/
+    background-size: cover;
+    position: relative;
+}
+
+.sm_video_lists {
+    width: 100%;
+    height: 7rem;
+    position: static;
+    left: 0;
+    top: 0;
+    margin: 0 auto;
+}
+
+.videoName {
+    width: 100%;
+    height: .3rem;
+    font-size: .3rem;
+    color: #814b28;
+    text-align: left;
+    display: block;
+    margin: .3rem auto .3rem;
+    text-indent: .3rem;
+}
+
+.sm_video_box {
+    width: 100%;
+    height: auto;
+    /* margin-top: 18px; */
+    margin: 0 auto;
+}
+
+.video_row_1,
+.video_row_2 {
+    width: 100%;
+    height: 2.6rem;
+    border-top: 1px solid #383737;
+    border-bottom: 1px solid #383737;
+}
+
+.video_row_2 {
+    border-top: none;
+}
+
+.videos {
+    width: 2.25rem;
+    height: 2.13rem;
+    margin-top: .2rem;
+    margin-left: .16rem;
+    position: relative;
+}
+
+.videos_2 {
+    margin-left: 16px;
+}
+
+.playBox {
+    width: 100%;
+    height: 1.6rem;
+}
+
+.the_video_name {
+    width: 100%;
+    height: .27rem;
+    font-size: .25rem;
+    line-height: .27rem;
+    color: #3e3a39;
+    text-align: center;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.prevPage,
+.nextPage {
+    width: 1.2rem;
+    height: .28rem;
+    font-size: .25rem;
+    line-height: .28rem;
+    float: right;
+    margin-top: .42rem;
+    margin-right: .7rem;
+}
+
+.flip_Page {
+    width: 310px;
+    height: 25px;
+    position: absolute;
+    bottom: 88px;
+    right: 122px;
+}
+
+.flip {
+    width: 123px;
+    height: 25px;
+    font-size: 15px;
+    color: #814b28;
+    line-height: 25px;
+    display: block;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.footer {
+    width: 100%;
+    height: .9rem;
+    float: right;
+    background: #f8bf4b;
+}
