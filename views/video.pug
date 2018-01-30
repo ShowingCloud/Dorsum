@@ -42,8 +42,8 @@ html(lang='en')
       .main
         .right_video_box.fr
           .sm_video_lists
-            if videodata.season[season - 1]
-              - var season = videodata.season[season - 1]
+            if videodata.season[params.season - 1]
+              - var season = videodata.season[params.season - 1]
             else
               - var season = videodata.season[0]
             span.videoName #{season.name}

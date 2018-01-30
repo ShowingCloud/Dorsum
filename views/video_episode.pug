@@ -42,13 +42,13 @@ html(lang='en')
       .main
         .right_video_box.fr
           .innerBox
-            if videodata.season[season - 1]
-              - var season = videodata.season[season - 1]
+            if videodata.season[params.season - 1]
+              - var season = videodata.season[params.season - 1]
             else
               - var season = videodata.season[0]
             span.storyName #{season.name}
-            if season.episode[episode - 1]
-              - var episode = season.episode[episode - 1]
+            if season.episode[params.episode - 1]
+              - var episode = season.episode[params.episode - 1]
             else
               - var episode = season.episode[0]
             span.storyNum #{episode.name}
@@ -58,9 +58,9 @@ html(lang='en')
           li.list_title.fl 故事列表
           li.list_title_box.fl
             span.little_title.little_title_active.little_title1 #{season.name}
-            each epi in season.episode
-              a(href='/video/' + season.id + '/episode/' + epi.id)
-                span.little_title #{epi.name}
+            each episode in season.episode
+              a(href='/video/' + season.id + '/episode/' + episode.id)
+                span.little_title #{episode.name}
             a.backTo(href='/video/' + season.id) << 返回
       .footer
       script(src='/javascripts/main.js')
