@@ -16,6 +16,12 @@
     }
 }
 
+@media screen and (min-width:420px) and (max-width:540px) {
+    html {
+        font-size: 58px;
+    }
+}
+
 body {
     overflow-x: hidden;
 }

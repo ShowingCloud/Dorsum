@@ -8,12 +8,11 @@ html(lang='en')
     link(rel='stylesheet', href='/stylesheets/reset.css')
     link(rel='stylesheet', href='/stylesheets/videoPlay.css')
     link(rel='stylesheet', type='text/css', media='screen and (max-width:1280px)', href='/stylesheets/video/1280video.css')
-    link(rel='stylesheet', type='text/css', media='screen and (min-width:421px)', href='/stylesheets/video/1280video.css')
     link(rel='stylesheet', type='text/css', media='screen and (min-width:1366px)', href='/stylesheets/video/1366video.css')
     link(rel='stylesheet', type='text/css', media='screen and (min-width:1440px)', href='/stylesheets/video/1440video.css')
     link(rel='stylesheet', type='text/css', media='screen and (min-width:1680px)', href='/stylesheets/video/1680video.css')
     link(rel='stylesheet', type='text/css', media='screen and (min-width:1920px)', href='/stylesheets/video/1920video.css')
-    link(rel='stylesheet', type='text/css', media='screen and (max-width:421px)', href='/stylesheets/video/mobile.css')
+    link(rel='stylesheet', type='text/css', media='screen and (max-width:540px)', href='/stylesheets/video/mobile.css')
     script(src='/javascripts/jquery-3.2.1.min.js')
   body
     .container
@@ -53,7 +52,7 @@ html(lang='en')
               - var episode = season.episode[0]
             span.storyNum #{episode.name}
             .playing_video
-              iframe.video_iframe(src='//www.bilibili.com/blackboard/player.html?aid=' + episode.bilibili_id + '&as_wide=1', frameborder='0', scrolling='no', webkitallowfullscreen='', mozallowfullscreen='', allowfullscreen='')
+              iframe.video_iframe(src='//player.bilibili.com/player.html?aid=' + episode.bilibili_id + '&as_wide=1', frameborder='0', scrolling='no', webkitallowfullscreen='', mozallowfullscreen='', allowfullscreen='')
         ul.videoLists.fl
           li.list_title.fl 故事列表
           li.list_title_box.fl

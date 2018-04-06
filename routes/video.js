@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET users listing. */
 router.get('/', function(req, res, next) {
-  res.render('video');
+  res.render('video', {params: req.params});
 });
 
 router.get('/:season', function(req, res, next) {
