@@ -52,7 +52,7 @@ html(lang='en')
               - var episode = season.episode[0]
             span.storyNum #{episode.name}
             .playing_video
-              iframe.video_iframe(src='//player.bilibili.com/player.html?aid=' + episode.bilibili_id + '&as_wide=1', frameborder='0', scrolling='no', webkitallowfullscreen='', mozallowfullscreen='', allowfullscreen='')
+              iframe.video_iframe(src='//player.bilibili.com/player.html?aid=' + episode.bilibili_id + '&cid=' + episode.bilibili_cid + '&as_wide=1', frameborder='0', scrolling='no', webkitallowfullscreen='', mozallowfullscreen='', allowfullscreen='')
         ul.videoLists.fl
           li.list_title.fl 故事列表
           li.list_title_box.fl
